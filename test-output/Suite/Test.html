@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/5/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Sep 06 10:10:09 IST 2025</td>
+<td>Started on:</td><td>Sun Sep 14 09:14:11 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>498 seconds (498461 ms)</td>
+<tr><td>Total time:</td><td>22 seconds (22194 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,290 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.creatio.crm.application.runner.ApplicationTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.creatio.crm.application.runner.ApplicationTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify cookies pop-up content", "Cookies Feature in Creatio CRM Application"</td>
-<td><div><pre>java.lang.AssertionError: Cookies pop-up content does not match the expected content. expected [We may use cookies and similar technologies to collect information about the ways you interact with and use the website, to support and enhance features and functionality, to monitor performance, to personalize content and experiences, for marketing and analytics, and for other lawful purposes. We also may share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. Please, see more details on the &quot;About&quot; tab] but found [We may use cookies and similar technologies to collect information about the ways you interact with and use the website, to support and enhance features and functionality, to monitor performance, to personalize content and experiences, for marketing and analytics, and for other lawful purposes. We also may share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. Please, see more details on the &quot;About&quot; tab ]
-	at com.creatio.crm.application.steps.CookiesPageSteps.verifyCookiesPopupContentIsValid(CookiesPageSteps.java:24)
-	at com.creatio.crm.application.stepDefinitions.ApplicationStepDefinitions.verify_the_cookies_pop_up_content(ApplicationStepDefinitions.java:48)
-	at ✽.Verify the cookies pop-up &lt;content&gt;(file:///C:/Training/June_2025_8AM/AutomationTraining/CreatioCRMCucumberTestNGFramework/ApplicationFeatures/CookiesPage.feature:17)
-... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace285781448", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace285781448'><pre>java.lang.AssertionError: Cookies pop-up content does not match the expected content. expected [We may use cookies and similar technologies to collect information about the ways you interact with and use the website, to support and enhance features and functionality, to monitor performance, to personalize content and experiences, for marketing and analytics, and for other lawful purposes. We also may share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. Please, see more details on the &quot;About&quot; tab] but found [We may use cookies and similar technologies to collect information about the ways you interact with and use the website, to support and enhance features and functionality, to monitor performance, to personalize content and experiences, for marketing and analytics, and for other lawful purposes. We also may share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. Please, see more details on the &quot;About&quot; tab ]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at com.creatio.crm.application.steps.CookiesPageSteps.verifyCookiesPopupContentIsValid(CookiesPageSteps.java:24)
-	at com.creatio.crm.application.stepDefinitions.ApplicationStepDefinitions.verify_the_cookies_pop_up_content(ApplicationStepDefinitions.java:48)
-	at ✽.Verify the cookies pop-up &lt;content&gt;(file:///C:/Training/June_2025_8AM/AutomationTraining/CreatioCRMCucumberTestNGFramework/ApplicationFeatures/CookiesPage.feature:17)
-</pre></div></td>
-<td>11</td>
-<td>com.creatio.crm.application.runner.ApplicationTestRunner@3c3d9b6b</td></tr>
-<tr>
-<td title='com.creatio.crm.application.runner.ApplicationTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.creatio.crm.application.runner.ApplicationTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Application Login", "Login Feature in Creatio CRM Application"</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [29ce5161640f87e77fd831da3cbb0338, findElement {using=xpath, value=//span[text()=&apos;Application Hub&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\india\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54180}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54180/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 29ce5161640f87e77fd831da3cbb0338
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:427)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy24.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.creatio.crm.framework.web.commons.WebCommons.waitForElement(WebCommons.java:159)
-	at com.creatio.crm.application.steps.HomePageSteps.verifyHomePageDisplayed(HomePageSteps.java:16)
-	at com.creatio.crm.application.stepDefinitions.ApplicationStepDefinitions.login_should_be_successful(ApplicationStepDefinitions.java:98)
-	at ✽.Login should be successful(file:///C:/Training/June_2025_8AM/AutomationTraining/CreatioCRMCucumberTestNGFramework/ApplicationFeatures/LoginPage.feature:14)
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2920)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1608509647", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1608509647'><pre>org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [29ce5161640f87e77fd831da3cbb0338, findElement {using=xpath, value=//span[text()=&apos;Application Hub&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\india\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54180}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54180/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 29ce5161640f87e77fd831da3cbb0338
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:427)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy24.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.creatio.crm.framework.web.commons.WebCommons.waitForElement(WebCommons.java:159)
-	at com.creatio.crm.application.steps.HomePageSteps.verifyHomePageDisplayed(HomePageSteps.java:16)
-	at com.creatio.crm.application.stepDefinitions.ApplicationStepDefinitions.login_should_be_successful(ApplicationStepDefinitions.java:98)
-	at ✽.Login should be successful(file:///C:/Training/June_2025_8AM/AutomationTraining/CreatioCRMCucumberTestNGFramework/ApplicationFeatures/LoginPage.feature:14)
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2920)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>208</td>
-<td>com.creatio.crm.application.runner.ApplicationTestRunner@3c3d9b6b</td></tr>
-<tr>
-<td title='com.creatio.crm.application.runner.ApplicationTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.creatio.crm.application.runner.ApplicationTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Application Logout Feature", "Login Feature in Creatio CRM Application"</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text()=&apos;Application Hub&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.creatio.crm.framework.web.commons.WebCommons.waitForElement(WebCommons.java:159)
-	at com.creatio.crm.application.steps.HomePageSteps.verifyHomePageDisplayed(HomePageSteps.java:16)
-	at com.creatio.crm.application.stepDefinitions.ApplicationStepDefinitions.login_should_be_successful(ApplicationStepDefinitions.java:98)
-	at ✽.Login should be successful(file:///C:/Training/June_2025_8AM/AutomationTraining/CreatioCRMCucumberTestNGFramework/ApplicationFeatures/LoginPage.feature:28)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Application Hub&apos;]&quot;}
-  (Session info: chrome=138.0.7204.158)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e40fcd8cd0bdc40ce4d7d3e1bed1c4bc, findElement {using=xpath, value=//span[text()=&apos;Application Hub&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\india\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54489/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e40fcd8cd0bdc40ce4d7d3e1bed1c4bc
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy24.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	... 4 more
-... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1191544932", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1191544932'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text()=&apos;Application Hub&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.creatio.crm.framework.web.commons.WebCommons.waitForElement(WebCommons.java:159)
-	at com.creatio.crm.application.steps.HomePageSteps.verifyHomePageDisplayed(HomePageSteps.java:16)
-	at com.creatio.crm.application.stepDefinitions.ApplicationStepDefinitions.login_should_be_successful(ApplicationStepDefinitions.java:98)
-	at ✽.Login should be successful(file:///C:/Training/June_2025_8AM/AutomationTraining/CreatioCRMCucumberTestNGFramework/ApplicationFeatures/LoginPage.feature:28)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Application Hub&apos;]&quot;}
-  (Session info: chrome=138.0.7204.158)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e40fcd8cd0bdc40ce4d7d3e1bed1c4bc, findElement {using=xpath, value=//span[text()=&apos;Application Hub&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\india\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54489/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e40fcd8cd0bdc40ce4d7d3e1bed1c4bc
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy24.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	... 4 more
-</pre></div></td>
-<td>173</td>
-<td>com.creatio.crm.application.runner.ApplicationTestRunner@3c3d9b6b</td></tr>
-<tr>
-<td title='com.creatio.crm.application.runner.ApplicationTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.creatio.crm.application.runner.ApplicationTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Application Login", "Login Feature in Creatio CRM Application"</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=138.0.7204.158)
-Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [69a056463c9301bfdf1d7f526d0483ff, findElement {using=xpath, value=//span[text()=&apos;Application Hub&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\india\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54430}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54430/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 69a056463c9301bfdf1d7f526d0483ff
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy24.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.creatio.crm.framework.web.commons.WebCommons.waitForElement(WebCommons.java:159)
-	at com.creatio.crm.application.steps.HomePageSteps.verifyHomePageDisplayed(HomePageSteps.java:16)
-	at com.creatio.crm.application.stepDefinitions.ApplicationStepDefinitions.login_should_be_successful(ApplicationStepDefinitions.java:98)
-	at ✽.Login should be successful(file:///C:/Training/June_2025_8AM/AutomationTraining/CreatioCRMCucumberTestNGFramework/ApplicationFeatures/LoginPage.feature:14)
-... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace689588113", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace689588113'><pre>org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=138.0.7204.158)
-Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [69a056463c9301bfdf1d7f526d0483ff, findElement {using=xpath, value=//span[text()=&apos;Application Hub&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\india\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54430}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54430/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 69a056463c9301bfdf1d7f526d0483ff
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy24.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at com.creatio.crm.framework.web.commons.WebCommons.waitForElement(WebCommons.java:159)
-	at com.creatio.crm.application.steps.HomePageSteps.verifyHomePageDisplayed(HomePageSteps.java:16)
-	at com.creatio.crm.application.stepDefinitions.ApplicationStepDefinitions.login_should_be_successful(ApplicationStepDefinitions.java:98)
-	at ✽.Login should be successful(file:///C:/Training/June_2025_8AM/AutomationTraining/CreatioCRMCucumberTestNGFramework/ApplicationFeatures/LoginPage.feature:14)
-</pre></div></td>
-<td>19</td>
-<td>com.creatio.crm.application.runner.ApplicationTestRunner@3c3d9b6b</td></tr>
-<tr>
-<td title='com.creatio.crm.application.runner.ApplicationTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.creatio.crm.application.runner.ApplicationTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify whether cookies pop-up switch buttons", "Cookies Feature in Creatio CRM Application"</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (cb3c9ab70d6cd0aa4925001e30e3c6aa)] -&gt; xpath: //input[@id=&apos;CybotCookiebotDialogBodyLevelButtonNecessary&apos;]] (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\india\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54063/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cb3c9ab70d6cd0aa4925001e30e3c6aa
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.creatio.crm.framework.web.commons.WebCommons.waitForElement(WebCommons.java:159)
-	at com.creatio.crm.application.steps.CookiesPageSteps.verifySwitchButtonsAreDisplayed(CookiesPageSteps.java:42)
-	at com.creatio.crm.application.stepDefinitions.ApplicationStepDefinitions.verify_cookies_pop_up_switch_buttons(ApplicationStepDefinitions.java:63)
-	at ✽.Verify cookies pop-up switch buttons(file:///C:/Training/June_2025_8AM/AutomationTraining/CreatioCRMCucumberTestNGFramework/ApplicationFeatures/CookiesPage.feature:34)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1126074033", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1126074033'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (cb3c9ab70d6cd0aa4925001e30e3c6aa)] -&gt; xpath: //input[@id=&apos;CybotCookiebotDialogBodyLevelButtonNecessary&apos;]] (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\india\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54063/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cb3c9ab70d6cd0aa4925001e30e3c6aa
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.creatio.crm.framework.web.commons.WebCommons.waitForElement(WebCommons.java:159)
-	at com.creatio.crm.application.steps.CookiesPageSteps.verifySwitchButtonsAreDisplayed(CookiesPageSteps.java:42)
-	at com.creatio.crm.application.stepDefinitions.ApplicationStepDefinitions.verify_cookies_pop_up_switch_buttons(ApplicationStepDefinitions.java:63)
-	at ✽.Verify cookies pop-up switch buttons(file:///C:/Training/June_2025_8AM/AutomationTraining/CreatioCRMCucumberTestNGFramework/ApplicationFeatures/CookiesPage.feature:34)
-</pre></div></td>
-<td>39</td>
-<td>com.creatio.crm.application.runner.ApplicationTestRunner@3c3d9b6b</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -360,35 +76,35 @@ Session ID: cb3c9ab70d6cd0aa4925001e30e3c6aa
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.creatio.crm.application.runner.ApplicationTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.creatio.crm.application.runner.ApplicationTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify whether cookies pop-up selection buttons", "Cookies Feature in Creatio CRM Application"</td>
+<td title='com.creatio.crm.api.runner.ApiRunner.runScenario()'><b>runScenario</b><br>Test class: com.creatio.crm.api.runner.ApiRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Request to Update a reporsitory for the authenticated user", "GitHub API Testing"</td>
 <td></td>
-<td>7</td>
-<td>com.creatio.crm.application.runner.ApplicationTestRunner@3c3d9b6b</td></tr>
+<td>3</td>
+<td>com.creatio.crm.api.runner.ApiRunner@1f59a598</td></tr>
 <tr>
-<td title='com.creatio.crm.application.runner.ApplicationTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.creatio.crm.application.runner.ApplicationTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify whether cookies pop-up explanded view", "Cookies Feature in Creatio CRM Application"</td>
+<td title='com.creatio.crm.api.runner.ApiRunner.runScenario()'><b>runScenario</b><br>Test class: com.creatio.crm.api.runner.ApiRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Request to Get a reporsitory for the authenticated user", "GitHub API Testing"</td>
 <td></td>
-<td>7</td>
-<td>com.creatio.crm.application.runner.ApplicationTestRunner@3c3d9b6b</td></tr>
+<td>3</td>
+<td>com.creatio.crm.api.runner.ApiRunner@1f59a598</td></tr>
 <tr>
-<td title='com.creatio.crm.application.runner.ApplicationTestRunner.runApplicationTests()'><b>runApplicationTests</b><br>Test class: com.creatio.crm.application.runner.ApplicationTestRunner</td>
+<td title='com.creatio.crm.api.runner.ApiRunner.runScenario()'><b>runScenario</b><br>Test class: com.creatio.crm.api.runner.ApiRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Request to create Valid reporsitory for the authenticated user", "GitHub API Testing"</td>
+<td></td>
+<td>4</td>
+<td>com.creatio.crm.api.runner.ApiRunner@1f59a598</td></tr>
+<tr>
+<td title='com.creatio.crm.api.runner.ApiRunner.runApplicationTests()'><b>runApplicationTests</b><br>Test class: com.creatio.crm.api.runner.ApiRunner</td>
 <td></td>
 <td>0</td>
-<td>com.creatio.crm.application.runner.ApplicationTestRunner@3c3d9b6b</td></tr>
+<td>com.creatio.crm.api.runner.ApiRunner@1f59a598</td></tr>
 <tr>
-<td title='com.creatio.crm.application.runner.ApplicationTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.creatio.crm.application.runner.ApplicationTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify whether cookies pop-up logos are displayed", "Cookies Feature in Creatio CRM Application"</td>
+<td title='com.creatio.crm.api.runner.ApiRunner.runScenario()'><b>runScenario</b><br>Test class: com.creatio.crm.api.runner.ApiRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Request to Delete a reporsitory for the authenticated user", "GitHub API Testing"</td>
 <td></td>
-<td>7</td>
-<td>com.creatio.crm.application.runner.ApplicationTestRunner@3c3d9b6b</td></tr>
+<td>3</td>
+<td>com.creatio.crm.api.runner.ApiRunner@1f59a598</td></tr>
 <tr>
-<td title='com.creatio.crm.application.runner.ApplicationTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.creatio.crm.application.runner.ApplicationTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify whether cookies pop-up is closed", "Cookies Feature in Creatio CRM Application"</td>
+<td title='com.creatio.crm.api.runner.ApiRunner.runScenario()'><b>runScenario</b><br>Test class: com.creatio.crm.api.runner.ApiRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Request to create Invalid reporsitory for the authenticated user", "GitHub API Testing"</td>
 <td></td>
-<td>8</td>
-<td>com.creatio.crm.application.runner.ApplicationTestRunner@3c3d9b6b</td></tr>
-<tr>
-<td title='com.creatio.crm.application.runner.ApplicationTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.creatio.crm.application.runner.ApplicationTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify whether cookies pop-up is displayed", "Cookies Feature in Creatio CRM Application"</td>
-<td></td>
-<td>14</td>
-<td>com.creatio.crm.application.runner.ApplicationTestRunner@3c3d9b6b</td></tr>
+<td>6</td>
+<td>com.creatio.crm.api.runner.ApiRunner@1f59a598</td></tr>
 </table><p>
 </body>
 </html>
