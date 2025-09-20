@@ -2,7 +2,9 @@ package com.creatio.crm.framework.web.commons;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Calendar;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
@@ -187,6 +189,13 @@ public class WebCommons {
 		}
 	}
 	
+	// generate unique id
+	public static String uniqueId(String format) {
+		SimpleDateFormat sdf = new SimpleDateFormat(format);
+		String uniqueId = sdf.format(Calendar.getInstance().getTime());
+		return uniqueId;
+	}
+
 	//Common method to take a screenshot of the complete browser window.
 	public static String takeScreenshot(WebDriver driver, String screenshotName) throws IOException {
 		String screenshotPath = System.getProperty("user.dir") + "\\screenshots\\" + screenshotName + ".png";
